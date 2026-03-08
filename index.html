@@ -1,36 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Store</title>
+<title>Tech Store</title>
+
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-<header>
-<h1>My Online Store</h1>
+<header class="header">
 
-<nav>
+<h1 class="logo">Tech Store</h1>
+
+<nav class="nav">
+
 <a href="index.html">Home</a>
 <a href="products.html">Products</a>
-<a href="cart.html">Cart</a>
+<a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+
 </nav>
+
 </header>
 
 <main>
 
 <section class="hero">
 
-<h2>Welcome to our Store</h2>
-<p>Find the best tech products at great prices.</p>
+<div class="hero-content">
 
-<a class="button" href="products.html">Browse Products</a>
+<h2>Welcome to Tech Store</h2>
+
+<p>High quality tech accessories at great prices.</p>
+
+<a href="products.html" class="shop-button">Shop Now</a>
+
+</div>
+
+</section>
+
+
+<section class="featured">
+
+<h2>Popular Products</h2>
+
+<div class="featured-grid">
+
+<div class="featured-card">
+<img src="https://picsum.photos/300?1">
+<h3>Headphones</h3>
+<p>$99</p>
+<a href="products.html">View Product</a>
+</div>
+
+<div class="featured-card">
+<img src="https://picsum.photos/300?2">
+<h3>Keyboard</h3>
+<p>$79</p>
+<a href="products.html">View Product</a>
+</div>
+
+<div class="featured-card">
+<img src="https://picsum.photos/300?3">
+<h3>Mouse</h3>
+<p>$49</p>
+<a href="products.html">View Product</a>
+</div>
+
+</div>
 
 </section>
 
 </main>
+
+<footer class="footer">
+
+<p>© 2026 Tech Store</p>
+
+</footer>
+
+<script src="js/cart.js"></script>
 
 </body>
 </html>
